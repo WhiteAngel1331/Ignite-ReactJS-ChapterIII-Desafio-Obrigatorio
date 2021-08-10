@@ -1,1 +1,50 @@
-// TODO
+.main{
+  max-width: 1120px;
+  height: 100px;
+  margin: 0 auto;
+  color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+
+  article{
+    margin-bottom: 32px;
+  }
+
+  h1{
+    display: inline;
+    height: 34px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover{
+      border-bottom: 2px #F8F8F8 solid;
+    }
+  }
+
+  h2{
+    font-size: 18px;
+    height: 22px;
+    font-weight: 400;
+    margin-top: 8px;
+  }
+
+  .informationArea{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+
+    .informationArea_Children{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      span,time{
+        margin-left: 4px;
+      }
+    }
+  }
+}
+
+
